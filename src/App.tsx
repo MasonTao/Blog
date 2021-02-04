@@ -1,6 +1,6 @@
 import React from "react";
 import Router from "./containers/router/routes";
-import "./App.css";
+import "./App.scss";
 
 const App = () => {
   return <Router></Router>;

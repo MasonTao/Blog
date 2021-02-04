@@ -1,5 +1,4 @@
 import React from "react";
-import "~containers/home/Home.css";
 
 const Home: React.FC = () => {
   return (
