@@ -7,10 +7,12 @@
     "start": "yarn start:tsc & razzle start",
     "build": "tsc -b && razzle build",
     "test": "razzle test --env=jsdom",
-    "start:prod": "NODE_ENV=production node build/server.js"
+    "start:prod": "NODE_ENV=production node build/server.js",
+    "convert-svg": "svgr -d public/svg-components public/svgs --ext tsx"
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",
+    "@svgr/cli": "^5.5.0",
     "@types/loadable__component": "^5.13.3",
     "express": "^4.17.1",
     "react": "^16.13.1",

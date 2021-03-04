@@ -16,7 +16,10 @@
     "jsx": "react",
     "baseUrl": "./src",
     "paths": {
-      "~containers/*": ["containers/*"]
+      "~containers/*": ["containers/*"],
+      "~components/*": ["components/*"],
+      "~svgs": ["../public/svg-components/index"],
+      "~svgs/*": ["../public/svg-components/*"],
     },
   },
   "include": ["src"]
